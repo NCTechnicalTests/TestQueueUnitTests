@@ -20,7 +20,7 @@ class TheQueue(object):
     def isempty(self):
         pass
 
-    def pop(self) -> int:
+    def remove(self) -> int:
         """
         Return and remove oldest element, raises custom exception when queue is empty
 
