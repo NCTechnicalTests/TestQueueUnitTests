@@ -3,13 +3,13 @@ The goal of this tests is to write code for a basic class and write the appropri
 
 The class used for this test is a Queue. The queue can be implemented using any other object in python.  The input and output of the methods are predefined in the files.
 
-This queue class is similar to a regular to a regular queue with following differences:
+This queue class is similar to a regular queue with following differences:
 - On initialisation, we can force the queue to only accept positive integers
-- The add method only accept integers and need to raise exception when other input types are provided
-- The pop method needs to raise exception if queue is empty
-- The dump_to_db method simulate a write to an external system using a DbWriter object
+- The add method only accepts integers and need to raise exception when other input types are provided
+- The remove method needs to raise exception if queue is empty
+- The dump_to_db method simulates a write to an external system using a DbWriter object
 
-For this test, the DbWriter class doesn't need to be modified.
+For this test, the DbWriter class should not be modified.
 
 # Test instructions
 
